@@ -18,7 +18,7 @@ With this plugin enabled, users visiting the secondary domain will be automatica
 
 == Installation ==
 
-1. Upload message-flow.zip via the "Install Plugins" panel (/wp-admin/plugin-install.php)
+1. Upload multidomain-redirect.zip via the "Install Plugins" panel (/wp-admin/plugin-install.php)
 2. That's it!
 
 == Changelog ==
