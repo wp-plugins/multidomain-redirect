@@ -1,5 +1,5 @@
 === Multidomain Redirect ===
-Contributors: Captin Shmit
+Contributors: Joe Anzalone
 Donate link: http://JoeAnzalone.com
 Tags: domain name, redirect, multidomain
 Requires at least: 2.0.2
@@ -18,8 +18,7 @@ With this plugin enabled, users visiting the secondary domain will be automatica
 
 == Installation ==
 
-1. Upload multidomain-redirect.zip via the "Install Plugins" panel (/wp-admin/plugin-install.php)
-2. That's it!
+Extract the zip file and drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the plugin from the "Plugins" page.
 
 == Changelog ==
 
