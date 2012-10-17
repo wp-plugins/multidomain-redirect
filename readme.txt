@@ -1,9 +1,9 @@
 === Multidomain Redirect ===
 Contributors: Joe Anzalone
-Donate link: http://JoeAnzalone.com
-Tags: domain name, redirect, multidomain
+Donate link: http://JoeAnzalone.com/plugins/multidomain-redirect/
+Tags: domain name, multidomain, redirect, 302
 Requires at least: 2.0.2
-Tested up to: 3.4.1
+Tested up to: 3.4.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,5 +22,13 @@ Extract the zip file and drop the contents in the wp-content/plugins/ directory 
 
 == Changelog ==
 
+= 1.1 =
+* Fixed infinite redirect loop bug caused by capital letters in site URLs
+
 = 1.0 =
 * First public release
+
+== Upgrade Notice ==
+
+= 1.1 =
+* Fixed infinite redirect loop bug caused by capital letters in site URLs

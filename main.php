@@ -4,7 +4,7 @@ Plugin Name: Multidomain Redirect
 Plugin URI: http://JoeAnzalone.com/plugins/multidomain-redirect/
 Description: Redirects visitors to the the site's URL as it appears in the WordPress database in case they're not already connecting through that domain. This is handy for secondary domains that point to your WordPress site.
 Author: Joe Anzalone
-Version: 1.0
+Version: 1.1
 Author URI: http://JoeAnzalone.com
 */
 
@@ -28,7 +28,7 @@ class multidomain_redirect {
 		
 		$new_url = $scheme . $wp_host . $_SERVER['REQUEST_URI'];
 		
-		if($wp_host != $this_host){
+		if(strtolower($wp_host) != strtolower($this_host)) {
 			header("Location: $new_url");
 			die();
 		}
